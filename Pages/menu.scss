@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+#banner-image{
+    position: relative;
+    width: 100vh;
+    height: 30vh;
+}
+#banner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-image: url("../Images/abstract-dark-wood2.jpg");
+    div a {
+        color: white;
+        text-decoration: none;
+    }
+}
+#logo{
+    position: relative;
+    bottom: 47vh;
+    left: 25vw;
+    width: 25vw;
+    height: 1vh;
+}
+#logo-image{
+    width: 100%;
+}
+#pizza-container{
+    width: 90vw;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+#pasta-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+#chicken-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+#salad-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+#desserts-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+#drinks-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#footer-banner{
+    background: black;
+    position: relative;
+    height: 60px;
+}
+#footer-text{
+    position: relative;
+    color: white;
+    left: 40vw;
+    top: 15px;
+}
+@media screen and (max-width: 1950px){
+    #pizza-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(3,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #pasta-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(2,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #chicken-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(1,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #salad-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(2,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #desserts-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(1,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #drinks-container{
+        display: grid;
+        padding: 3vw;
+        grid-template-rows: repeat(1,50vh);
+        grid-template-columns: repeat(3,1fr);
+    }
+    .effect{
+        width: 100%;
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .middle {
+        transition:.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .food{
+        font-family: 'Dosis', sans-serif;
+        color: white;
+        width: 100%;
+    }
+    .food:hover .effect{
+    opacity: 0.3;
+    }
+    .food:hover .middle {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #pizza-container{
+        display: grid;
+        grid-template-rows: repeat(4,40vh);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #pasta-container{
+        display: grid;
+        grid-template-rows: repeat(2,40vh);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #chicken-container{
+        display: grid;
+        margin-bottom: 5vw;
+        grid-template-rows: repeat(2,40vh);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #salad-container{
+        display: grid;
+        grid-template-rows: repeat(2,40vh);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #desserts-container{
+        display: grid;
+        grid-template-rows: repeat(2,40vh);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #desserts-container{
+        display: grid;
+        grid-template-rows: repeat(2,40vh);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px){
+    #banner{
+        width: 123vw;
+    }
+    #pizza-container{
+        display: grid;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+    }
+    #pasta-container{
+        display: grid;
+        padding: 10px;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+    }
+    #chicken-container{
+        display: grid;
+        padding: 10px;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+    }
+    #salad-container{
+        display: grid;
+        padding: 10px;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+    }
+    #desserts-container{
+        display: grid;
+        padding: 0;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    #drinks-container{
+        display: grid;
+        padding: 10px;
+        grid-template-rows: repeat(1,45vh);
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+#banner-image{
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+}
+#banner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-image: url("../Images/abstract-dark-wood2.jpg");
+    div a {
+        color: white;
+        text-decoration: none;
+    }
+}
+#logo{
+    position: relative;
+    bottom: 47vh;
+    left: 25vw;
+    width: 20vw;
+    height: 1vh;
+}
+#top-img{
+    position: relative;
+    width: 100vw;
+}
+#about-text{
+    position: relative;
+    color:white;
+    bottom: 15vw;
+    left: 40vw;
+    font-size: 60px;
+}
+#grid-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+.body-text{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}

@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+
+#banner-image {
+  position: relative;
+  width: 100vw;
+  height: 30vh;
+}
+
+#banner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../Images/abstract-dark-wood2.jpg");
+}
+
+#banner div a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  position: relative;
+  bottom: 47vh;
+  left: 25vw;
+  width: 25vw;
+  height: 1vh;
+}
+
+#logo-image {
+  width: 100%;
+}
+
+#top-img {
+  position: relative;
+  width: 100vw;
+}
+
+#location-text {
+  position: relative;
+  color: white;
+  font-size: 50px;
+  bottom: 25vh;
+  left: 45vw;
+}
+
+#open-hours-text {
+  color: white;
+}
+
+#grid-container {
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer-banner {
+  background: black;
+  position: relative;
+  height: 60px;
+}
+
+#footer-text {
+  position: relative;
+  color: white;
+  left: 40vw;
+  top: 15px;
+}
+/*# sourceMappingURL=location.css.map */
