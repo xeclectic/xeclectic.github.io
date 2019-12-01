@@ -8,7 +8,7 @@ body{
 #banner-image{
     position: relative;
     width: 100vw;
-    height: 15vh;
+    height: 30vh;
 }
 #banner{
     display: grid;
@@ -19,34 +19,125 @@ body{
     div a {
         color: white;
         text-decoration: none;
+        font-size: 80%;
+        font-family: "candara", sans-serif;
     }
 }
 #logo{
     position: relative;
     bottom: 47vh;
     left: 25vw;
-    width: 20vw;
+    width: 25vw;
     height: 1vh;
 }
-#top-img{
+#logo-image{
+    width: 100%;
+}
+#lights{
     position: relative;
-    width: 100vw;
+    width: 100%;
+    height: 40vh;
 }
 #about-text{
     position: relative;
     color:white;
     bottom: 15vw;
     left: 40vw;
-    font-size: 60px;
+    font-size: 230%;
+    font-family: "candara", sans-serif;
 }
-#grid-container{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    justify-items: center;
-    align-items: center;
-}
-.body-text{
+.text{
     color: white;
-    font-family: 'Dosis', sans-serif;
+}
+#footer-banner{
+    background: white;
+    position: relative;
+    height: 7vh;
+}
+#footer-text{
+    position: relative;
+    color: black;
+    left: 20vw;
+    top: 3vh;
+}
+@media screen and (max-width: 1950px){}
+@media screen and (max-width: 800px){
+    #banner{
+        width: 117%;
+            div a{
+                font-size: 100%;
+                margin-right: 4vw;
+        }
+    }
+    #lights{
+        width: 117%;
+        height: 30vh;
+    }
+    #about-text{
+        bottom: 17vh;
+        left: 50vw;
+    }
+    .text{
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    #pizzeria{
+        width:100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 5vw;
+    }
+    #saru{
+        width: 100%;
+        height: 30vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 5vw;
+    }
+    #footer-banner{
+        width: 117%;
+    }
+    #footer-text{
+        font-size: 100%;
+        left: 35vw;
+    }
+}
+@media screen and (max-width: 400px){
+    #banner{
+        width: 100%;
+            div a{
+                font-size: 100%;
+                margin-right: 4vw;
+        }
+    }
+    #lights{
+        width: 100%;
+        height: 30vh;
+    }
+    #about-text{
+        bottom: 17vh;
+        left: 20vw;
+    }
+    .text{
+        margin-left: 5vw;
+        text-align: center;
+    }
+    #pizzeria{
+        width:100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    #saru{
+        width: 100%;
+        height: 30vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    #footer-banner{
+        width: 100%;
+    }
+    #footer-text{
+        font-size: 60%
+    }
 }

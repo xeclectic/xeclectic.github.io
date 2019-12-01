@@ -24,6 +24,7 @@
 #banner div a {
   color: white;
   text-decoration: none;
+  font-size: 40%;
 }
 
 #logo {
@@ -47,27 +48,41 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "candara", sans-serif;
 }
 
 #pizza-video {
-  width: 20vw;
+  width: 130vw;
   height: 30vh;
 }
 
-#pizza-text {
-  position: relative;
-}
-
 #tag-line2 {
-  position: absolute;
+  position: relative;
+  font-family: "candara", sans-serif;
   color: white;
-  top: 30vh;
-  left: 45vw;
+  font-size: 140%;
+  top: 20vh;
+  text-align: center;
+  left: 10vw;
 }
 
 #pizza-image {
   width: 100%;
   height: 130%;
+}
+
+#order {
+  position: relative;
+  color: white;
+  background-color: #9D0E0D;
+  font-family: "candara", sans-serif;
+  bottom: 50vh;
+  text-align: center;
+}
+
+#order a {
+  color: white;
+  text-decoration: none;
 }
 
 #footer-banner {
@@ -81,5 +96,163 @@
   color: white;
   left: 40vw;
   top: 15px;
+}
+
+@media screen and (max-width: 1950px) {
+  #banner {
+    width: 100%;
+  }
+  #banner div a {
+    font-size: 140%;
+    font-family: "candara", sans-serif;
+  }
+  #tag-line {
+    color: white;
+    background-color: black;
+    font-size: 130%;
+    width: 100%;
+    height: 6vh;
+  }
+  #tag-line2 {
+    position: relative;
+    font-size: 160%;
+    top: 15vh;
+    text-align: center;
+    left: 1vw;
+  }
+  #pizza-video {
+    width: 100%;
+    height: 70%;
+    margin-top: 5vh;
+  }
+  #pizza-image {
+    width: 100%;
+    height: 100vh;
+  }
+  #footer-banner {
+    width: 100%;
+  }
+  #footer-text {
+    top: 2vh;
+    left: 25vw;
+    font-size: 100%;
+  }
+  #order {
+    position: relative;
+    color: white;
+    background-color: #9D0E0D;
+    font-family: "candara", sans-serif;
+    font-size: 200%;
+    bottom: 55vh;
+    height: 5vh;
+    text-align: center;
+  }
+  #order a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1950px) and (max-width: 800px) {
+  #banner {
+    width: 100%;
+  }
+  #banner div a {
+    font-size: 140%;
+    font-family: "candara", sans-serif;
+  }
+  #tag-line {
+    color: white;
+    background-color: black;
+    font-size: 130%;
+    width: 100%;
+    height: 6vh;
+  }
+  #tag-line2 {
+    position: relative;
+    font-size: 160%;
+    top: 15vh;
+    text-align: center;
+    left: 1vw;
+  }
+  #pizza-video {
+    width: 100%;
+    height: 70%;
+    margin-top: 5vh;
+  }
+  #pizza-image {
+    width: 100%;
+    height: 80vh;
+  }
+  #footer-banner {
+    width: 100%;
+  }
+  #footer-text {
+    top: 2vh;
+    left: 25vw;
+    font-size: 100%;
+  }
+  #order {
+    position: relative;
+    color: white;
+    background-color: #9D0E0D;
+    font-family: "candara", sans-serif;
+    font-size: 200%;
+    bottom: 55vh;
+    height: 5vh;
+    text-align: center;
+  }
+  #order a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1950px) and (max-width: 400px) {
+  #banner {
+    width: 100%;
+  }
+  #banner div a {
+    font-size: 80%;
+    font-family: "candara", sans-serif;
+  }
+  #tag-line {
+    color: white;
+    background-color: black;
+    font-size: 100%;
+    width: 100%;
+    height: 6vh;
+  }
+  #tag-line2 {
+    position: relative;
+    font-size: 130%;
+    top: 20vh;
+    text-align: center;
+    left: 1vw;
+  }
+  #pizza-video {
+    width: 100%;
+    height: 70%;
+    margin-top: 5vh;
+  }
+  #pizza-image {
+    width: 100%;
+    height: 80vh;
+  }
+  #footer-banner {
+    width: 100%;
+  }
+  #footer-text {
+    left: 10vw;
+    font-size: 70%;
+  }
+  #order {
+    position: relative;
+    color: white;
+    background-color: #9D0E0D;
+    font-family: "candara", sans-serif;
+    bottom: 50vh;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
